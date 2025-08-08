@@ -1,3 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --color-secondary: oklch(0.72 0.11 178);
+  --color-azul: #0d63fd;
+}
 
+
+html,
+body {
+  @apply bg-gray-800 text-white w-screen h-screen underline-offset-8;
+}
+
+
+a{
+  @apply active:opacity-70 transition-opacity;
+}
