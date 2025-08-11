@@ -12,9 +12,7 @@ export const metadata: Metadata = {
   description: "A melhor plataforma de cursos online do Brasil!",
 };
 
-interface IRootLayout extends Readonly<{  children: React.ReactNode;}> {}
-
-export default function RootLayout({children,}: IRootLayout) {
+export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="pt-Br">
       <body className={`${nunito}`}>
