@@ -1,3 +1,4 @@
+import { Card } from "@/components/card/Card";
 import { Metadata } from "next";
 
 
@@ -8,7 +9,9 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <>
-    <main className=''>Home</main>
+    <main className=''>
+      <Card />
+    </main>
     </>
   )
 }
